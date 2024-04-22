@@ -24,7 +24,7 @@ export function initWeb3() {
   const metadata = {
     name: 'Brainfuckers404',
     description: 'Brainfuckers404',
-    url: 'http://www.here.com',
+    url: 'https://brainfuckers.vercel.app/',
     icons: ['https://avatars.githubusercontent.com/u/37784886']
   }
 
