@@ -10,6 +10,7 @@ export const BFUCK = '0xEdaD06525b01D4310ac7Da8610803d6eA512eD72';
 
 const abi404 = parseAbi([
     //  ^? const abi: readonly [{ name: "balanceOf"; type: "function"; stateMutability:...
+    'function mint(address to, uint256 amountOut) external',
     'function approve(address spender, uint256 amount) external returns (bool)',
     'function balanceOf(address user) view returns (uint256)',
     'function allowance(address owner, address spender) public view returns (uint256 remaining)',
@@ -65,7 +66,7 @@ export async function mint(amountFuckIn) {
         address: BFUCK,
         abi: abi404,
         functionName: 'mint',
-        args: [amountFuckIn],
+        args: [get(account), amountFuckIn],
     });
 
     return data;

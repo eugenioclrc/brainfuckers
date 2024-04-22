@@ -22,8 +22,9 @@
 	async function doMint() {
 		minting = true;
 		try {
-			await mint(parseEther(String(lockFuck)));
+			await mint(parseEther(String(lockFuck / 10)));
 		} catch(err) {
+			console.log(err)
 			alert("error minting");
 		}
 		minting = false;
