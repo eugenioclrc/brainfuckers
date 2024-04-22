@@ -8,7 +8,7 @@ import { watchAccount, watchChainId, getAccount } from '@wagmi/core'
 
 import { writable, derived } from "svelte/store";
 
-const projectId = "6194";
+const projectId = "f8b3fcf5a47b1581d2678f29b884435c";
 
 
 // export const provider = writable();
