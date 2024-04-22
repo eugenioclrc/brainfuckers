@@ -26,9 +26,9 @@
 <main id="content" class="homepage container">
 	<section class="hero">
 		<div class="hook">
-			<h1><mark>A Minimal Frontend</mark> <br>for Mint and Burn <strong>$BFUCKERS</strong></h1>
+			<h1><mark>A Minimal Frontend</mark> <br>to Mint and Burn <strong>$BFUCKERS</strong></h1>
 			<p class="secondary">
-				This is minimalist and lightweight frontend<br />for mint or reedem/burn <strong>$BFUCKERS</strong>
+				This is a minimalist and lightweight frontend<br />to mint or reedem/burn <strong>$BFUCKERS</strong>
 			</p>
 			
 			<div class="grid ctas">
@@ -43,8 +43,7 @@
 		<section class="features"><hgroup><h2>A ERC404 implementation that takes and gives $FUCK</h2>
 			<p>
 Our collection is a tribute to the quirky and experimental world of 
-<a href="https://arbiscan.io/address/0xe38d8f2a1787f4d9ec0a671f4d39f7788fd3b235" target="_blank">$FUCK token</a>. The Brainfuckers 
-are ERC404 is an implementation of a co-joined ERC20 and ERC721 pair inspired by the $FUCK token. If you're unfamiliar, $FUCK is a token coded in Brainfuck, Brainfuck is an 
+<a href="https://arbiscan.io/address/0xe38d8f2a1787f4d9ec0a671f4d39f7788fd3b235" target="_blank">$FUCK token</a>. The Brainfuckers ERC404 are an implementation of a co-joined ERC20 and ERC721 pair inspired by the $FUCK token. If you're unfamiliar, $FUCK is a token coded in Brainfuck, Brainfuck is an 
 esoteric programming language known for its minimalistic design, using only eight characters for commands.
 </p></hgroup>
 <div class="grid">
